@@ -82,12 +82,15 @@ xnor(Y7,a,b);
 endmodule
 ```
 **Logic symbol & Truthtable**
+
 ![image](https://github.com/premalatha-sureshbabu/study-of-basic-gates/assets/120620842/f7cbc97d-7c20-4883-8602-006b49c79433)
 
 **RTL realization Output:** 
+
 ![image](https://github.com/premalatha-sureshbabu/study-of-basic-gates/assets/120620842/c1d26651-8d1e-4ec5-a6ae-ed03d270ef7d)
 
 **Timing Diagram**
+
 ![image](https://github.com/premalatha-sureshbabu/study-of-basic-gates/assets/120620842/646f0b03-395a-4b3b-8cfa-607632e65af9)
 
 **Result:**
