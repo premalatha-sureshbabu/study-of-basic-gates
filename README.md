@@ -94,5 +94,6 @@ endmodule
 ![image](https://github.com/premalatha-sureshbabu/study-of-basic-gates/assets/120620842/646f0b03-395a-4b3b-8cfa-607632e65af9)
 
 **Result:**
+
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
 
