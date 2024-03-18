@@ -70,29 +70,35 @@ Program for logic gates and verify its truth table in quartus using Verilog prog
  
  RegisterNumber: 212222230112
 ```
- module flipflops(a,b,Y1,Y2,Y3,Y4,Y5,Y6,Y7);
-input a,b;
-output Y1,Y2,Y3,Y4,Y5,Y6,Y7;
-and(Y1,a,b);
-or(Y2,a,b);
-not(Y3,a);
-xor(Y4,a,b);
-nand(Y5,a,b);
-nor(Y6,a,b);
-xnor(Y7,a,b);
+module gates_exp1(a, b, c, d, e, x, y, z);
+  input a, b;
+  output c, d, e, x, y, z;
+
+  assign c = a & b;   // AND gate
+  assign d = a | b;   // OR gate
+  assign e = a ^ b;   // XOR gate
+  assign x = ~(a & b); // NAND gate
+  assign y = ~(a | b); // NOR gate
+  assign z = ~(a ^ b); // XNOR gate
+
 endmodule
 ```
-**Logic symbol & Truthtable**
+![image](https://github.com/premalatha-sureshbabu/study-of-basic-gates/assets/120620842/ad8a6d9e-e836-4e09-abed-f033d7694177)
 
-![image](https://github.com/premalatha-sureshbabu/study-of-basic-gates/assets/120620842/f7cbc97d-7c20-4883-8602-006b49c79433)
+Logic symbol & Truthtable
 
-**RTL realization Output:** 
+![image](https://github.com/premalatha-sureshbabu/study-of-basic-gates/assets/120620842/dffbaf10-0443-4b60-a802-10b44e76afd9)
 
-![image](https://github.com/premalatha-sureshbabu/study-of-basic-gates/assets/120620842/c1d26651-8d1e-4ec5-a6ae-ed03d270ef7d)
+RTL realization output
 
-**Timing Diagram**
+![image](https://github.com/premalatha-sureshbabu/study-of-basic-gates/assets/120620842/ac7ac55e-aae5-42c6-b4f0-6a17b0b23899)
 
-![image](https://github.com/premalatha-sureshbabu/study-of-basic-gates/assets/120620842/646f0b03-395a-4b3b-8cfa-607632e65af9)
+RTL
+
+![image](https://github.com/premalatha-sureshbabu/study-of-basic-gates/assets/120620842/8a5c65f2-1311-4b99-a51d-f2243018aa61)
+
+
+
 
 **Result:**
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
